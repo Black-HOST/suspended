@@ -1,0 +1,31 @@
+{
+	"schema": "1.0",
+	"type": "whmcs-addons",
+	"name": "suspended",
+	"license": "free",
+	"category": "utilities",
+	"description": {
+		"name": "Domain Suspension",
+		"tagline": "Suspend domains in WHMCS in one click!",
+		"long": "Suspending a domain in WHMCS is not possible out of the box.\n\nWith SUSPENDED.page you can easily suspend any domain and its subdomains with single click.\n\nThis module provides a 'magical' button in the WHMCS administration area, which once clicked disables client access to the domain, and points it to the authorative DNS nameserves of suspended.page which acts as wildcard DNS resolver for any subdomain.\n\nOnce the DNS changes are propagated, the domain will display content as on: https://demo.suspended.page/",
+		"features": [
+			"One-click Domain suspendsion and unsuspension.",
+			"Authoritative DNS service for the suspended domain and all of its subdomains",
+			"SSL & HTTP3 enabled landing page to inform the domain owner and the domain visitors about the domain status.",
+			"Free template for customizing the domain suspension page in cPanel."
+		]
+	},
+	"logo": {
+		"filename": "static/logo.png"
+	},
+	"support": {
+		"homepage": "https:\/\/suspended.page\/",
+		"docs_url": "https:\/\/suspended.page\/whmcs"
+	},
+	"authors": [
+		{
+			"name": "BlackHOST",
+			"homepage": "https:\/\/black.host\/"
+		}
+	]
+}
